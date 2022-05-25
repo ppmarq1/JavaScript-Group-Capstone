@@ -1,5 +1,45 @@
+import fetch from 'cross-fetch';
+import fetchApi from './fetchApi.js';
+
 export default class Movies {
   static url = 'https://api.tvmaze.com/search/shows?q=star';
+
+  static clickLikes = () => {
+    const likeIcon = document.querySelectorAll('.like-icon');
+    likeIcon.forEach((element) => {
+      element.addEventListener('click', () => {
+        fetchApi.setLikes(parseInt(element.id, 10)).then(() => {
+          this.newLikes();
+        });
+      });
+    });
+  };
+
+  static newLikes = () => {
+    fetchApi.getLikes().then((data) => {
+      data.forEach((item) => {
+        const boxicon = document.getElementById(`${item.item_id}`);
+        if (boxicon) {
+          boxicon.nextElementSibling.innerHTML = `${item.likes} likes`;
+        }
+      });
+    });
+  };
+
+  static counterMovies = async () => {
+    const response = await fetch(this.url);
+    const data = await response.json();
+    let count = 0;
+    data.forEach((item) => {
+      if (item.show.image !== null) {
+        count += 1;
+      }
+      const title = document.querySelector('.title');
+      if (title) title.textContent = `Top (${count}) STAR Movies `;
+    });
+
+    return count;
+  };
 
   static displayMovies = async () => {
     const response = await fetch(this.url);
@@ -22,5 +62,7 @@ export default class Movies {
         movieContainer.appendChild(div);
       }
     });
-  };
+    this.clickLikes();
+    this.newLikes();
+  }
 }
