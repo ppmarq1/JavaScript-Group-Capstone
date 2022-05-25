@@ -54,6 +54,77 @@ header {
   width: 100%;
 }
 
+
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(255, 60, 0);
+}
+
+.container {
+  max-width: 90%;
+  width: 120rem;
+  margin: 0 auto;
+}
+
+main p {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-center {
+  justify-content: center;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.each-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+  border-radius: 1rem;
+}
+
+.each-movie img {
+  border-radius: 12px;
+}
+
+.each {
+  text-align: center;
+  line-height: 40px;
+  width: 21rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.each li {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+}
+
 footer {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
