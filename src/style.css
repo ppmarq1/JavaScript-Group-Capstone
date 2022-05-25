@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Limelight&family=Ubuntu:wght@500&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-nav {
+  padding-top: 18px;
+  font-family: 'Limelight', cursive;
+  display: flex;
+  font-size: 25px;
+  position: relative;
+  margin-top: -70px;
+}
+
+.right-nav input[type=text] {
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.big {
+  font-size: 70px;
+  color: red;
+}
+
+.big-2 {
+  color: red;
+}
+
+.middle {
+  font-family: 'Limelight', cursive;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 110px;
+}
+
+header {
+  display: flex;
+  color: #ddd;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+footer {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  color: #ddd;
+  padding: 1rem 0;
+  display: flex;
+  height: 72px;
+  font-size: 20px;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  width: 95.5%;
+}
