@@ -1,7 +1,11 @@
 import fetch from 'cross-fetch';
+<<<<<<< HEAD
+import fetchApi from './fetchApi.js';
+=======
 
 import fetchApi from './fetchApi.js';
 import commentsUrl from './commentsUrl.js';
+>>>>>>> 8219952abd29bf5582fa2a15d6a829392a514932
 
 export default class Movies {
   static url = 'https://api.tvmaze.com/search/shows?q=star';
@@ -26,22 +30,22 @@ export default class Movies {
         }
       });
     });
+  };
 
-    static counterMovies = async () => {
-      const response = await fetch(this.url);
-      const data = await response.json();
-      let count = 0;
-      data.forEach((item) => {
-        if (item.show.image !== null) {
-          count += 1;
-        }
-        const title = document.querySelector('.title');
-        if (title) title.textContent = `Top (${count}) STAR Movies `;
-      });
-  
-      return count;
-    };
+  static counterMovies = async () => {
+    const response = await fetch(this.url);
+    const data = await response.json();
+    let count = 0;
+    data.forEach((item) => {
+      if (item.show.image !== null) {
+        count += 1;
+      }
+      const title = document.querySelector('.title');
+      if (title) title.textContent = `Top (${count}) STAR Movies `;
+    });
 
+    return count;
+  };
 
   static displayMovies = async () => {
     const response = await fetch(this.url);
