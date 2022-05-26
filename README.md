@@ -61,7 +61,9 @@ Clone the repository https://github.com/ppmarq1/JavaScript-Group-Capstone.git
 
 **Happen Mathebula**
 
-
+- GitHub: [@HSMathebula](https://github.com/HSMathebula)
+- Twitter: [@HappenSipho](https://twitter.com/HappenSipho)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/happen-sipho-mathebula-4b0438115/)
 
 ## 🤝 Contributing
 
