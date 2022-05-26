@@ -20,7 +20,7 @@ Feel free to check the: [Portfolio-link](https://ppmarq1.github.io/JavaScript-Gr
 
 ## Live Presentation
 
-Click [here](to be done soon) to see live presentaion
+Click [here](to be done soon ) to see live presentaion
 
 ## Getting Started
 
