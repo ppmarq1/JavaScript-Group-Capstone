@@ -4,6 +4,7 @@
 
 > This educational project is to build our own web application based on an external API. We selected an API that provides data about a topic that we like and built the web app around it. The web app will have 2 user interfaces.
 
+<img src="/Screenshot_1.png" alt="">
 ## Built With 🛠️
 
 - HTML
