@@ -1,3 +1,5 @@
+import commentsUrl from './commentsUrl.js';
+
 export default class Movies {
   static url = 'https://api.tvmaze.com/search/shows?q=star';
 
