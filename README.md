@@ -11,7 +11,7 @@
 - JavaScript / ES6
 - Webpack
   Linters: Lighthouse, Webhint, Stylelint and ESLint
-  APIs: TVmaze API and Involvement API
+  APIs: TVmaze API and  Involvement API
 
 ## Live Demo 🔗
 
