@@ -3,6 +3,21 @@ import commentsUrl from './commentsUrl.js';
 export default class Movies {
   static url = 'https://api.tvmaze.com/search/shows?q=star';
 
+  static counterMovies = async () => {
+    const response = await fetch(this.url);
+    const data = await response.json();
+    let count = 0;
+    data.forEach((item) => {
+      if (item.show.image !== null) {
+        count += 1;
+      }
+      const title = document.querySelector('.title');
+      if (title) title.textContent = `Top (${count}) STAR Movies `;
+    });
+
+    return count;
+  };
+
   static displayMovies = async () => {
     const response = await fetch(this.url);
     const data = await response.json();
