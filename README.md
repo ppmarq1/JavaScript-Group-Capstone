@@ -5,6 +5,7 @@
 > This educational project is to build our own web application based on an external API. We selected an API that provides data about a topic that we like and built the web app around it. The web app will have 2 user interfaces.
 
 <img src="/Screenshot_1.png" alt="">
+
 ## Built With 🛠️
 
 - HTML
@@ -20,7 +21,7 @@ Feel free to check the: [Portfolio-link](https://ppmarq1.github.io/JavaScript-Gr
 
 ## Live Presentation
 
-Click [here](to be done soon ) to see live presentaion
+Click [here](https://drive.google.com/file/d/1n_SU5XxmjSLLO-z6tiV8JEe0yJbgp0Wv/view?usp=sharing ) to see live presentaion
 
 ## Getting Started
 
