@@ -50,7 +50,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
     "gh-pages": "^3.2.3",
-    "hint": "^6.2.0",
+    "hint": "^2.0.0",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.5.1",
     "style-loader": "^3.3.1",
