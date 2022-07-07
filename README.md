@@ -21,7 +21,7 @@ Feel free to check the: [Portfolio-link](https://ppmarq1.github.io/JavaScript-Gr
 
 ## Live Presentation
 
-Click [here](https://drive.google.com/file/d/1n_SU5XxmjSLLO-z6tiV8JEe0yJbgp0Wv/view?usp=sharing ) to see live presentaion
+Click [here](https://drive.google.com/file/d/1n_SU5XxmjSLLO-z6tiV8JEe0yJbgp0Wv/view?usp=sharing ) to see live presentation.
 
 ## Getting Started
 
